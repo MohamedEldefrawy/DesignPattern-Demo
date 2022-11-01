@@ -1,4 +1,4 @@
-package controller;
+package scoreboard.controller;
 
 public class ScoreBoard {
     public ScoreBoardAlgorithmBase scoreBoardAlgorithmBase;

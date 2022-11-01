@@ -1,7 +1,7 @@
-import controller.ScoreBoard;
-import model.Balloon;
-import model.Clown;
-import model.SquareBalloon;
+import scoreboard.controller.ScoreBoard;
+import scoreboard.model.Balloon;
+import scoreboard.model.Clown;
+import scoreboard.model.SquareBalloon;
 
 public class Main {
     public static void main(String[] args) {

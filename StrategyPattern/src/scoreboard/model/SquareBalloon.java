@@ -1,6 +1,6 @@
-package model;
+package scoreboard.model;
 
-import controller.ScoreBoardAlgorithmBase;
+import scoreboard.controller.ScoreBoardAlgorithmBase;
 
 public class SquareBalloon implements ScoreBoardAlgorithmBase {
     @Override
