@@ -1,6 +1,5 @@
 package payment.model;
 
-import payment.model.Product;
 import payment.strategy.Payment;
 
 import java.util.List;
