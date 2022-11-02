@@ -6,13 +6,15 @@ import contract.Subject;
 import java.util.List;
 
 public class EmailTopic implements Subject {
-    private List<Observer> observers;
+    private final List<Observer> observers;
     private String message;
 
+    // set list of subscribers
     public EmailTopic(List<Observer> observers) {
         this.observers = observers;
     }
 
+    // Action happened to notify observers or subscribers
     public void postMessage(String msg) {
         System.out.println("Message posted in my topic: " + msg);
         this.message = msg;
@@ -44,7 +46,7 @@ public class EmailTopic implements Subject {
     }
 
     @Override
-    public String getUpdate(Observer observer) {
+    public String getUpdate() {
         return this.message;
     }
 }

@@ -7,5 +7,5 @@ public interface Subject {
 
     public void notifyObservers();
 
-    public Object getUpdate(Observer observer);
+    public Object getUpdate();
 }

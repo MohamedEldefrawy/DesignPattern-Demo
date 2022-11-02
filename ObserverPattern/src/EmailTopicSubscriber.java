@@ -11,7 +11,7 @@ public class EmailTopicSubscriber implements Observer {
 
     @Override
     public void update() {
-        String updatedMessage = (String) this.topic.getUpdate(this);
+        String updatedMessage = (String) this.topic.getUpdate();
         if (updatedMessage == null)
             System.out.println(this.message);
         else {
